@@ -43,10 +43,28 @@
                 <button class="banner-button" type="button" data-open-modal>Заказать услугу</button>
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum odio maiores laudantium quod doloremque at inventore dolorum rem laborum, aperiam eos soluta tenetur suscipit eius pariatur consectetur! Mollitia voluptatum deleniti voluptate sunt possimus dolorem quasi doloremque quibusdam animi. Ex in, debitis repellat excepturi alias earum optio. A tempore delectus at.</p>
+            <h2 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h2>
             <svg data-close-modal class="button-close">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
+            <form class="form-modal">
+                <div class="form-main-field">
+                    <div class="form-field">
+                        <label class="label-tittle name" for="name">Имя</label>
+                        <input type="text" name="name" id="name"/></div>
+                    <div class="form-field">
+                        <label class="label-tittle"for="tel">Телефон</label>
+                        <input type="tel" name="tel" id="tel"/></div>
+                    <div class="form-field">
+                        <label class="label-tittle"for="mail">Почта</label>
+                        <input type="email" name="mail" id="mail"/></div>
+                    <div>
+                        <label for="coment">Комментарий</label>
+                        <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+                    </div>
+
+                </div>
+            </form>
         </div>
     </div>
             </div>
