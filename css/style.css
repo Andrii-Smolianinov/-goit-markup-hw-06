@@ -79,6 +79,7 @@ h1, h2, h3, p, ul, li {
   font-size: 26px;
   line-height: 1.91;
   text-decoration: none;
+  outline: none;
 }
 .webhead,
 .webfooter {
@@ -111,6 +112,7 @@ h1, h2, h3, p, ul, li {
   padding-bottom: 32px;
 
   transition:color var(--transition);
+  outline: none;
 }
 .nav-list {position: relative;}
 
@@ -155,6 +157,7 @@ h1, h2, h3, p, ul, li {
   padding-bottom: 32px;
 
   transition: color var(--transition);
+  outline: none;
 }
 .main-contacts {
   letter-spacing: var(--secondary-leter-spacing);
@@ -259,6 +262,7 @@ h1, h2, h3, p, ul, li {
   padding: 10px 32px;
 
   user-select: none;
+  outline: none;
 }
 
 .modal {
@@ -519,6 +523,7 @@ h1, h2, h3, p, ul, li {
   gap: 10px;
   list-style: none;
   padding-top: 16px;
+  
 }
 
 
@@ -540,6 +545,7 @@ h1, h2, h3, p, ul, li {
 
   transition: fill var(--transition),
   background-color var(--transition);
+  outline: none;
 }
 
 .team-link-icon {
@@ -566,6 +572,7 @@ h1, h2, h3, p, ul, li {
 
   transition: fill var(--transition),
   border-color var(--transition);
+  outline: none;
 }
 .clients_link:hover,
 .clients_link:focus {
@@ -585,8 +592,9 @@ h1, h2, h3, p, ul, li {
 /* ФУТЕР */
 .logo-footer {
   display: inline-block;
-  margin-bottom: 20px;}
-
+  margin-bottom: 20px;
+  outline: none;
+}
 .adres-footer {
   font-weight: var(--primary-font-weight);
   font-size: var(--main-font-sz);
@@ -596,12 +604,14 @@ h1, h2, h3, p, ul, li {
   text-decoration: var(--main-text-decor);
 
   margin-bottom: 9px;
+  outline: none;
 }
 .links-footer {
   font-weight: var(--primary-font-weight);
   font-size: var(--main-font-sz);
   line-height: var(--primary-line-hght);
   color: var(--color-rdba);
+  
 }
 
 
@@ -624,6 +634,7 @@ h1, h2, h3, p, ul, li {
   line-height: var(--primary-line-hght);
   color: var(--color-rdba);
   text-decoration: var(--main-text-decor);
+  outline: none;
 }
 
 .footer_socials-list {
@@ -644,6 +655,7 @@ h1, h2, h3, p, ul, li {
 
   transition: fill var(--transition),
   background-color var(--transition);
+  outline: none;
 }
 
 .footer_socials-tittle {
@@ -707,6 +719,7 @@ h1, h2, h3, p, ul, li {
   transition: color var(--transition),
   background-color var(--transition),
   box-shadow var(--transition);
+  outline: none;
 }
 .btn-list {
   justify-content: center;
@@ -738,6 +751,7 @@ h1, h2, h3, p, ul, li {
   display: inline-block;
 
   transition: box-shadow var(--transition);
+  outline: none;
 }
 
 .content-img {
