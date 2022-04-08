@@ -309,10 +309,18 @@ h1, h2, h3, p, ul, li {
   top: 8px;
   right: 8px;
   cursor: pointer;
-  fill: #ffffff;
+  fill: #000000;
   width: 30px;
   height: 30px;
 }
+
+.button-close:hover,
+.button-close:focus {
+ fill: #2196f3;
+}
+
+
+
 .modal-tittle {
   font-style: normal;
   font-weight: 700;
@@ -324,6 +332,7 @@ h1, h2, h3, p, ul, li {
   color: #212121;
 }
 .form-field {
+
   display: flex;
   flex-direction: column;
 
@@ -349,7 +358,108 @@ h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
   height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+
 }
+
+
+.label-checkbox {
+  display: flex;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-left: 13px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+.icon {
+  display: inline-block;
+  border: 2px solid #212121;
+  width: 16px;
+  height: 15px;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.checkbox:checked + .icon {
+  background-color: #2196F3;
+  border-color: #2196f3;
+  background-image: url(../images/check2.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+.txt-blue-check {
+  color: #2196F3;
+  margin-left: 4px;
+}
+
+.form-field input::placeholder {
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
+}
+
+
+textarea {
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.form-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 164px;
+  bottom: 0;  
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;
+}
+.form-button:hover {
+  cursor: pointer;
+}
+
+
+
 
 /* ОСОБЕННОСТИ */
 .peculiarities h3 {

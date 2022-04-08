@@ -51,17 +51,22 @@
                 <div class="form-main-field">
                     <div class="form-field">
                         <label class="label-tittle name" for="name">Имя</label>
-                        <input type="text" name="name" id="name"/></div>
+                        <input type="text" class="form-input name" name="name" id="name" /></div>
                     <div class="form-field">
-                        <label class="label-tittle"for="tel">Телефон</label>
-                        <input type="tel" name="tel" id="tel"/></div>
+                        <label class="label-tittle" for="tel">Телефон</label>
+                        <input type="tel" class="form-input" name="telephone" id="tel" /></div>
                     <div class="form-field">
-                        <label class="label-tittle"for="mail">Почта</label>
-                        <input type="email" name="mail" id="mail"/></div>
-                    <div>
-                        <label for="coment">Комментарий</label>
-                        <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+                        <label class="label-tittle" for="mail">Почта</label>
+                        <input type="email" class="form-input" name="mail" id="mail" /></div>
+                    <div class="form-field">
+                        <label class="label-tittle" for="coment">Комментарий</label>
+                        <textarea name="coment" id="coment" rows="10" placeholder="Введите текст"></textarea>
                     </div>
+                    <div class="form-field">
+                        <label class="label-checkbox" for="checkbox"><input class="checkbox" type="checkbox" name="checkbox-treaty" id="checkbox"/><span class="icon"></span>Соглашаюсь с рассылкой и принимаю <span class="txt-blue-check">Условия договора</span></label>
+                        </div>
+                    </div>
+                    <button class="form-button" type="submit">Отправить</button>
 
                 </div>
             </form>
