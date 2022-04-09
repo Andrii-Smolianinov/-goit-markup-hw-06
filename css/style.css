@@ -442,8 +442,11 @@ h1, h2, h3, p, ul, li {
 .modal-icon svg {
   width: 15px;
   height: 13px;
+  fill: #212121;
 }
-
+.modal-icon svg:hover, .modal-icon svg:focus {
+  fill: #2196f3;
+}
 .modal-icon.phone {
   width: 13px;
   height: 13px;
