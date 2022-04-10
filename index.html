@@ -39,7 +39,7 @@
         <section class="banner overlay">
                 <!--Блок Баннер-->
             <div class="container bnnr">
-                <h1 class="banner-tittle">Эффективные решения <br> для вашего бизнеса</h1>
+                <h1 class="banner-tittle">Эффективные решения для вашего бизнеса</h1>
                 <button class="banner-button" type="button" data-open-modal>Заказать услугу</button>
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
@@ -91,7 +91,7 @@
         <section class="peculiarities section">
                 <!--Блок со списком особенностей-->
             <div class="container">
-                <h2 hidden class="peculiarities-maintittle">Особенности компании</h2>
+                <h2 class="peculiarities-maintittle">Особенности компании</h2>
                 <ul class="peculiarities-list">
                     <li class="peculiarities-items">
                         <div class="peculiarities-icons">
@@ -169,8 +169,10 @@
             <ul class="team-list">
                 <li class="team-items">
                     <img class="team-img" src="./images/team-a-min.jpg" alt="фото Игоря Демьяненко" width="270" height="260">
-                    <h3 class="team-tittle">Игорь Демьяненко</h3>
-                    <p class="team-text" lang="en">Product Designer</p>
+                    <div class="team-position">
+                        <h3 class="team-tittle">Игорь Демьяненко</h3>
+                        <p class="team-text" lang="en">Product Designer</p>
+                    </div>
                     <ul class="team-links">
                         <li class="link-item"><a class="team-link" href="https://www.instagram.com" target="_blank">
                                 <svg class="team-link-icon">
@@ -196,8 +198,10 @@
                 </li>
                 <li class="team-items">
                     <img class="team-img" src="./images/team-b-min.jpg" alt="фото Ольги Репиной" width="270" height="260">
-                    <h3 class="team-tittle">Ольга Репина</h3>
-                    <p class="team-text" lang="en">Frontend Developer</p>
+                    <div class="team-position">
+                        <h3 class="team-tittle">Ольга Репина</h3>
+                        <p class="team-text" lang="en">Frontend Developer</p>
+                    </div>
                     <ul class="team-links">
                         <li class="link-item"><a class="team-link" href="https://www.instagram.com" target="_blank">
                                 <svg class="team-link-icon">
@@ -223,8 +227,10 @@
                 </li>
                 <li class="team-items">
                     <img class="team-img" src="./images/team-c-min.jpg" alt="фото Николая Тарасова" width="270" height="260">
-                    <h3 class="team-tittle">Николай Тарасов</h3>
-                    <p class="team-text" lang="en">Marketing</p>
+                    <div class="team-position">
+                        <h3 class="team-tittle">Николай Тарасов</h3>
+                        <p class="team-text" lang="en">Marketing</p>
+                    </div>
                     <ul class="team-links">
                         <li class="link-item"><a class="team-link" href="https://www.instagram.com" target="_blank">
                                 <svg class="team-link-icon">
@@ -250,8 +256,10 @@
                 </li>
                 <li class="team-items">
                     <img class="team-img" src="./images/team-d-min.jpg" alt="фото Михаила Ермакова" width="270" height="260">
-                    <h3 class="team-tittle">Михаил Ермаков</h3>
-                    <p class="team-text" lang="en">UI Designer</p>
+                    <div class="team-position">
+                        <h3 class="team-tittle">Михаил Ермаков</h3>
+                        <p class="team-text" lang="en">UI Designer</p>
+                    </div>
                     <ul class="team-links">
                         <li class="link-item"><a class="team-link" href="https://www.instagram.com" target="_blank">
                                 <svg class="team-link-icon">
@@ -377,19 +385,18 @@
                         </li>
                     </ul>
                 </div>
-                <form class="footer-form">
-                    <h2 class="footer_socials-tittle">Подпишитесь на рассылку</h2>
-                    <label class="footer-form-field">
-                        <input type="email" class="footer-form-input" name="email" placeholder="E-mail">
+                <form class="footer-subscribe">
+                    <h2 class="footer-subscribe-tittle">Подпишитесь на рассылку</h2>
+                    <label class="footer-subscribe-field">
+                        <input type="email" class="footer-subscribe-input" name="email" placeholder="E-mail">
                     </label>
-                    <button type="submit" class="footer-form-btn btn">Подписаться
-                        <svg class="footer-form-icon">
-                            <use href="./images/icons.svg#send"></use>
-                        </svg>
+                    <button type="submit" class="footer-subscribe-btn btn">Подписаться
+                    <svg class="footer-subscribe-icon">
+                        <use href="./images/icons.svg#send"></use>
+                    </svg>
                     </button>
                 </form>
             </div>
-            
         </div>
     </footer>
     <script>
