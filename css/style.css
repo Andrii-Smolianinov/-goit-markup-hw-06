@@ -301,6 +301,8 @@ h1, h2, h3, p, ul, li {
   opacity: 0;
   pointer-events: none;
 }
+
+/* робоча версія з фоном свг */
 .button-close {
   position: fixed;
   top: 8px;
@@ -315,13 +317,10 @@ h1, h2, h3, p, ul, li {
   width: 30px;
   height: 30px;
 }
-
 .button-close:hover,
 .button-close:focus {
- background-image: url(../images/vector.svg);
+  background-image: url(../images/vector.svg);
 }
-
-
 
 .modal-tittle {
   font-style: normal;
