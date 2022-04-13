@@ -301,8 +301,28 @@ h1, h2, h3, p, ul, li {
   opacity: 0;
   pointer-events: none;
 }
+/* не працює основний колір свн іконки */
+/* .button-close {
+  position: fixed;
+  top: 8px;
+  right: 8px;
 
-/* робоча версія з фоном свг */
+  width: 30px;
+  height: 30px;
+
+  background-color: #fff;
+  
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img-close-btn {
+  height: 18px;
+  width: 18px;
+  fill: black;
+} */
+
+
 .button-close {
   position: fixed;
   top: 8px;
